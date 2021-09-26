@@ -118,7 +118,7 @@ public class Parser {
     }
 
     private ParseError error(Token token, String message) {
-        Interpreter.error(token, message);
+        Mox.error(token, message);
         return new ParseError();
     }
 

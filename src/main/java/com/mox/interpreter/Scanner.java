@@ -100,7 +100,7 @@ public class Scanner {
                 } else if (isAlpha(c)) {
                     identifier();
                 } else {
-                    Interpreter.error(line, "Unexpected character.");
+                    Mox.error(line, "Unexpected character.");
                 }
                 break;
         }
@@ -154,7 +154,7 @@ public class Scanner {
         }
 
         if (isAtEnd()) {
-            Interpreter.error(line, "Unterminated string.");
+            Mox.error(line, "Unterminated string.");
             return;
         }
 
