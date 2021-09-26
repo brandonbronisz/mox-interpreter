@@ -1,7 +1,7 @@
-package com.mox.interpreter;
+package com.brandonbronisz.mox;
 
 import java.util.List;
-import static com.mox.interpreter.TokenType.*;
+import static com.brandonbronisz.mox.TokenType.*;
 
 public class Parser {
 

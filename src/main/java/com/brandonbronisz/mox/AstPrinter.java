@@ -1,4 +1,4 @@
-package com.mox.interpreter;
+package com.brandonbronisz.mox;
 
 public class AstPrinter implements Expr.Visitor<String> {
 

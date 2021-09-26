@@ -1,4 +1,4 @@
-package com.mox.interpreter;
+package com.brandonbronisz.mox;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -1,6 +1,4 @@
-package com.mox.interpreter;
-
-import java.util.List;
+package com.brandonbronisz.mox;
 
 abstract class Expr {
     interface Visitor<R> {
