@@ -1,4 +1,4 @@
-package com.java.tools;
+package com.mox.tools;
 
 import java.io.IOException;
 import java.io.PrintWriter;

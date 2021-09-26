@@ -1,11 +1,11 @@
-package com.java.interpreter;
+package com.mox.interpreter;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import static com.java.interpreter.TokenType.*;
+import static com.mox.interpreter.TokenType.*;
 
 public class Scanner {
     private final String source;

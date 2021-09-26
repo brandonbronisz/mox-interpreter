@@ -1,4 +1,4 @@
-package com.java.interpreter;
+package com.mox.interpreter;
 
 public class Token {
     final TokenType type;

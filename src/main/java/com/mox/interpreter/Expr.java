@@ -1,6 +1,4 @@
-package com.java.interpreter;
-
-import java.util.List;
+package com.mox.interpreter;
 
 abstract class Expr {
     static class Binary extends Expr {
